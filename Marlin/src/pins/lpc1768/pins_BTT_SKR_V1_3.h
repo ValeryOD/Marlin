@@ -76,8 +76,12 @@
 //
 // Servos
 //
-#ifndef SERVO0_PIN
-  #define SERVO0_PIN                       P2_00
+//#ifndef SERVO0_PIN
+//  #define SERVO0_PIN                     P2_00
+//#endif
+
+#ifndef SPINDLE_LASER_ENA_PIN
+  #define SPINDLE_LASER_ENA_PIN            P2_00  // Relay to enable spindle
 #endif
 
 //
